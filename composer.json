@@ -1,0 +1,17 @@
+{
+    "name": "jefrancomix/replica-demo-basico",
+    "description": "Demo plugin to import posts from another WordPress site",
+    "type": "wordpress-plugin",
+    "require": {
+        "apantle/hashmapper": "~1.3",
+        "composer/installers": "1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus E. Franco Martinez",
+            "email": "tezcatl@fedoraproject.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
