@@ -3,9 +3,7 @@
  * Plugin Name: Replica Demo Basico
  */
 
-use Tzkmx\DemoBasico\CategoryMeta;
-
-new CategoryMeta();
+new ReplicaFeedRegister();
 
 add_action('wp_footer', function () {
     $http = new WP_Http();
