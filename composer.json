@@ -6,6 +6,11 @@
         "apantle/hashmapper": "~1.3",
         "composer/installers": "1.*"
     },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "license": "MIT",
     "authors": [
         {

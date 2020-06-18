@@ -2,6 +2,11 @@
 /*
  * Plugin Name: Replica Demo Basico
  */
+
+use Tzkmx\DemoBasico\CategoryMeta;
+
+new CategoryMeta();
+
 add_action('wp_footer', function () {
     $http = new WP_Http();
     /** @var array<string,mixed>|WP_Error $apiResponse */
